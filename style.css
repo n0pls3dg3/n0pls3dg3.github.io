@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #1e1e1e; /* nền xám đậm */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 390px; /* giống kích thước Instagram trên điện thoại */
+  background-color: #000;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.post {
+  color: white;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #222;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.location {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.dotmenu {
+  font-size: 24px;
+  color: #aaa;
+}
+
+.media video {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  cursor: pointer;
+}
+
+.actions {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.caption {
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.date {
+  padding: 10px;
+  font-size: 12px;
+  color: #888;
+}
