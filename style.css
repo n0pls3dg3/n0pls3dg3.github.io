@@ -84,3 +84,27 @@ body {
   font-size: 12px;
   color: #888;
 }
+
+
+#passwordInput {
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  outline: none;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(255, 92, 164, 0.2);
+}
+#passwordInput::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+}
+#passwordInput:focus {
+  border-color: #FF5CA4;
+  box-shadow: 0 0 10px #FF5CA4;
+}
